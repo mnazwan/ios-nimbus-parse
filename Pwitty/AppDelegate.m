@@ -16,8 +16,9 @@
     // Override point for customization after application launch.
     
     // Parse
-    [Parse setApplicationId:@""
-                  clientKey:@""];
+    [Parse setApplicationId:@"ZW26LlY21song80mW9J0mofwqRQgTGZ5a0vHxU1a"
+                  clientKey:@"ktXJw1WsMDWlDlbAbI1Zl0D9vlzWeIcvAym2oPZQ"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
     [self.window makeKeyAndVisible];
     return YES;

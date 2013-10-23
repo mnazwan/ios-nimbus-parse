@@ -53,6 +53,12 @@
 		783D5DBD1818274600B2E2E2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783D5DBC1818274600B2E2E2 /* Security.framework */; };
 		783D5DBF1818274D00B2E2E2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783D5DBE1818274D00B2E2E2 /* StoreKit.framework */; };
 		783D5DC11818275500B2E2E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783D5DC01818275500B2E2E2 /* SystemConfiguration.framework */; };
+		783D5DC518182FD300B2E2E2 /* NowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D5DC318182FD300B2E2E2 /* NowViewController.m */; };
+		783D5DC618182FD300B2E2E2 /* NowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783D5DC418182FD300B2E2E2 /* NowViewController.xib */; };
+		783D5DCB1818315300B2E2E2 /* ShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D5DC91818315300B2E2E2 /* ShoppingListViewController.m */; };
+		783D5DCC1818315300B2E2E2 /* ShoppingListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783D5DCA1818315300B2E2E2 /* ShoppingListViewController.xib */; };
+		783D5DD1181831B300B2E2E2 /* SharedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D5DCF181831B300B2E2E2 /* SharedViewController.m */; };
+		783D5DD2181831B300B2E2E2 /* SharedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783D5DD0181831B300B2E2E2 /* SharedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +150,15 @@
 		783D5DBC1818274600B2E2E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		783D5DBE1818274D00B2E2E2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		783D5DC01818275500B2E2E2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		783D5DC218182FD300B2E2E2 /* NowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowViewController.h; sourceTree = "<group>"; };
+		783D5DC318182FD300B2E2E2 /* NowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowViewController.m; sourceTree = "<group>"; };
+		783D5DC418182FD300B2E2E2 /* NowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NowViewController.xib; sourceTree = "<group>"; };
+		783D5DC81818315300B2E2E2 /* ShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewController.h; sourceTree = "<group>"; };
+		783D5DC91818315300B2E2E2 /* ShoppingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController.m; sourceTree = "<group>"; };
+		783D5DCA1818315300B2E2E2 /* ShoppingListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListViewController.xib; sourceTree = "<group>"; };
+		783D5DCE181831B300B2E2E2 /* SharedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedViewController.h; sourceTree = "<group>"; };
+		783D5DCF181831B300B2E2E2 /* SharedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedViewController.m; sourceTree = "<group>"; };
+		783D5DD0181831B300B2E2E2 /* SharedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SharedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +244,9 @@
 				780594641818087B002DF985 /* Images.xcassets */,
 				780594591818087B002DF985 /* Supporting Files */,
 				7805948118180999002DF985 /* MainWindow.xib */,
+				783D5DC718182FDB00B2E2E2 /* Now */,
+				783D5DCD1818315800B2E2E2 /* ShoppingList */,
+				783D5DD3181831B700B2E2E2 /* Shared */,
 			);
 			path = Pwitty;
 			sourceTree = "<group>";
@@ -328,6 +346,36 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		783D5DC718182FDB00B2E2E2 /* Now */ = {
+			isa = PBXGroup;
+			children = (
+				783D5DC218182FD300B2E2E2 /* NowViewController.h */,
+				783D5DC318182FD300B2E2E2 /* NowViewController.m */,
+				783D5DC418182FD300B2E2E2 /* NowViewController.xib */,
+			);
+			name = Now;
+			sourceTree = "<group>";
+		};
+		783D5DCD1818315800B2E2E2 /* ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				783D5DC81818315300B2E2E2 /* ShoppingListViewController.h */,
+				783D5DC91818315300B2E2E2 /* ShoppingListViewController.m */,
+				783D5DCA1818315300B2E2E2 /* ShoppingListViewController.xib */,
+			);
+			name = ShoppingList;
+			sourceTree = "<group>";
+		};
+		783D5DD3181831B700B2E2E2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				783D5DCE181831B300B2E2E2 /* SharedViewController.h */,
+				783D5DCF181831B300B2E2E2 /* SharedViewController.m */,
+				783D5DD0181831B300B2E2E2 /* SharedViewController.xib */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -403,9 +451,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783D5DCC1818315300B2E2E2 /* ShoppingListViewController.xib in Resources */,
 				7805945D1818087B002DF985 /* InfoPlist.strings in Resources */,
+				783D5DC618182FD300B2E2E2 /* NowViewController.xib in Resources */,
 				780594651818087B002DF985 /* Images.xcassets in Resources */,
 				7805948218180999002DF985 /* MainWindow.xib in Resources */,
+				783D5DD2181831B300B2E2E2 /* SharedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +481,7 @@
 				783D5DA61818266E00B2E2E2 /* NINonEmptyCollectionTesting.m in Sources */,
 				783D5DAD1818266E00B2E2E2 /* NIState.m in Sources */,
 				783D5DA81818266E00B2E2E2 /* NIOperations.m in Sources */,
+				783D5DCB1818315300B2E2E2 /* ShoppingListViewController.m in Sources */,
 				783D5DA21818266E00B2E2E2 /* NIInMemoryCache.m in Sources */,
 				783D5DAC1818266E00B2E2E2 /* NISnapshotRotation.m in Sources */,
 				783D5DA91818266E00B2E2E2 /* NIPaths.m in Sources */,
@@ -441,6 +493,8 @@
 				783D5DAE1818266E00B2E2E2 /* NIViewRecycler.m in Sources */,
 				783D5D9F1818266E00B2E2E2 /* NIError.m in Sources */,
 				783D5DA01818266E00B2E2E2 /* NIFoundationMethods.m in Sources */,
+				783D5DC518182FD300B2E2E2 /* NowViewController.m in Sources */,
+				783D5DD1181831B300B2E2E2 /* SharedViewController.m in Sources */,
 				783D5DAF1818266E00B2E2E2 /* NSString+NimbusCore.m in Sources */,
 				783D5D991818266E00B2E2E2 /* NIActions.m in Sources */,
 				783D5DA51818266E00B2E2E2 /* NINetworkActivity.m in Sources */,

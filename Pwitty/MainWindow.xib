@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
@@ -19,13 +19,13 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
-                <outlet property="rootViewController" destination="Jht-Md-8rx" id="Gfe-0Y-ckx"/>
+                <outlet property="rootViewController" destination="Jht-Md-8rx" id="oRH-Fd-Xtk"/>
             </connections>
         </window>
-        <tabBarController definesPresentationContext="YES" id="Jht-Md-8rx">
+        <tabBarController nibName="" definesPresentationContext="YES" id="Jht-Md-8rx">
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <tabBar key="tabBar" contentMode="scaleToFill" id="rsj-7e-117">
@@ -34,42 +34,69 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tabBar>
             <viewControllers>
-                <viewController id="iDp-gi-rqw">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bjN-2J-WMr"/>
-                        <viewControllerLayoutGuide type="bottom" id="t5w-ip-dWO"/>
-                    </layoutGuides>
-                    <tabBarItem key="tabBarItem" title="Now" id="PxD-Kh-0Sr"/>
-                    <nil key="simulatedStatusBarMetrics"/>
+                <navigationController definesPresentationContext="YES" id="jN7-dR-dt8">
+                    <tabBarItem key="tabBarItem" title="Now" id="3iu-dS-pYZ"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
-                </viewController>
-                <viewController id="0kf-QE-rdN">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="x5n-LI-vsU"/>
-                        <viewControllerLayoutGuide type="bottom" id="K0l-Cw-UNS"/>
-                    </layoutGuides>
-                    <tabBarItem key="tabBarItem" title="Shopping List" id="ebd-ez-bhQ"/>
-                    <nil key="simulatedStatusBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aNR-sT-j7d">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="NowViewController" id="sFo-f7-jrm" customClass="NowViewController">
+                            <navigationItem key="navigationItem" title="Now" id="Aba-T0-Vj1"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController definesPresentationContext="YES" id="2D1-4h-H9d">
+                    <tabBarItem key="tabBarItem" title="Shopping List" id="zIl-PU-aU0"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
-                </viewController>
-                <viewController id="zgK-2Q-qLX">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nyN-FW-ShI"/>
-                        <viewControllerLayoutGuide type="bottom" id="zju-Jt-ReO"/>
-                    </layoutGuides>
-                    <tabBarItem key="tabBarItem" title="Shared" id="z8m-jk-KK6"/>
-                    <nil key="simulatedStatusBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ePt-bW-bSh">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="ShoppingListViewController" id="TrH-EN-E8O" customClass="ShoppingListViewController">
+                            <navigationItem key="navigationItem" title="Shopping List" id="hmT-qw-Fks"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController definesPresentationContext="YES" id="K5f-ga-NOS">
+                    <tabBarItem key="tabBarItem" title="Shared" id="zjP-CY-eMz"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
-                </viewController>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hgr-kY-vlz">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="SharedViewController" id="x87-fI-hsv" customClass="SharedViewController">
+                            <navigationItem key="navigationItem" title="Shared List" id="utF-L5-2Mw"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
             </viewControllers>
         </tabBarController>
     </objects>
