@@ -7,13 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Parse
+    [Parse setApplicationId:@"ZW26LlY21song80mW9J0mofwqRQgTGZ5a0vHxU1a"
+                  clientKey:@"ktXJw1WsMDWlDlbAbI1Zl0D9vlzWeIcvAym2oPZQ"];
 
     [self.window makeKeyAndVisible];
     return YES;
