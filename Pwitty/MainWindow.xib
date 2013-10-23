@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4488.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="4" id="5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <customObject id="4" userLabel="App Delegate" customClass="AppDelegate"/>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="rootViewController" destination="Jht-Md-8rx" id="Gfe-0Y-ckx"/>
+            </connections>
+        </window>
+        <tabBarController definesPresentationContext="YES" id="Jht-Md-8rx">
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="z8m-jk-KK6" id="rsj-7e-117">
+                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <viewController id="iDp-gi-rqw">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bjN-2J-WMr"/>
+                        <viewControllerLayoutGuide type="bottom" id="t5w-ip-dWO"/>
+                    </layoutGuides>
+                    <tabBarItem key="tabBarItem" title="Now" id="PxD-Kh-0Sr"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                </viewController>
+                <viewController id="0kf-QE-rdN">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x5n-LI-vsU"/>
+                        <viewControllerLayoutGuide type="bottom" id="K0l-Cw-UNS"/>
+                    </layoutGuides>
+                    <tabBarItem key="tabBarItem" title="Shopping List" id="ebd-ez-bhQ"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                </viewController>
+                <viewController id="zgK-2Q-qLX">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nyN-FW-ShI"/>
+                        <viewControllerLayoutGuide type="bottom" id="zju-Jt-ReO"/>
+                    </layoutGuides>
+                    <tabBarItem key="tabBarItem" title="Shared" id="z8m-jk-KK6"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                </viewController>
+            </viewControllers>
+        </tabBarController>
+    </objects>
+</document>

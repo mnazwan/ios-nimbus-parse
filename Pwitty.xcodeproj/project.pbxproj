@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780594531818087B002DF985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780594521818087B002DF985 /* Foundation.framework */; };
+		780594551818087B002DF985 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780594541818087B002DF985 /* CoreGraphics.framework */; };
+		780594571818087B002DF985 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780594561818087B002DF985 /* UIKit.framework */; };
+		7805945D1818087B002DF985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7805945B1818087B002DF985 /* InfoPlist.strings */; };
+		7805945F1818087B002DF985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7805945E1818087B002DF985 /* main.m */; };
+		780594631818087B002DF985 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780594621818087B002DF985 /* AppDelegate.m */; };
+		780594651818087B002DF985 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780594641818087B002DF985 /* Images.xcassets */; };
+		7805946C1818087B002DF985 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7805946B1818087B002DF985 /* XCTest.framework */; };
+		7805946D1818087B002DF985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780594521818087B002DF985 /* Foundation.framework */; };
+		7805946E1818087B002DF985 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780594561818087B002DF985 /* UIKit.framework */; };
+		780594761818087B002DF985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 780594741818087B002DF985 /* InfoPlist.strings */; };
+		780594781818087B002DF985 /* PwittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 780594771818087B002DF985 /* PwittyTests.m */; };
+		7805948218180999002DF985 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7805948118180999002DF985 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7805946F1818087B002DF985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780594471818087B002DF985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7805944E1818087B002DF985;
+			remoteInfo = Pwitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7805944F1818087B002DF985 /* Pwitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pwitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		780594521818087B002DF985 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		780594541818087B002DF985 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		780594561818087B002DF985 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7805945A1818087B002DF985 /* Pwitty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pwitty-Info.plist"; sourceTree = "<group>"; };
+		7805945C1818087B002DF985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7805945E1818087B002DF985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		780594601818087B002DF985 /* Pwitty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pwitty-Prefix.pch"; sourceTree = "<group>"; };
+		780594611818087B002DF985 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		780594621818087B002DF985 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		780594641818087B002DF985 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7805946A1818087B002DF985 /* PwittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PwittyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7805946B1818087B002DF985 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		780594731818087B002DF985 /* PwittyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PwittyTests-Info.plist"; sourceTree = "<group>"; };
+		780594751818087B002DF985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		780594771818087B002DF985 /* PwittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PwittyTests.m; sourceTree = "<group>"; };
+		7805948118180999002DF985 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7805944C1818087B002DF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780594551818087B002DF985 /* CoreGraphics.framework in Frameworks */,
+				780594571818087B002DF985 /* UIKit.framework in Frameworks */,
+				780594531818087B002DF985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780594671818087B002DF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7805946C1818087B002DF985 /* XCTest.framework in Frameworks */,
+				7805946E1818087B002DF985 /* UIKit.framework in Frameworks */,
+				7805946D1818087B002DF985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780594461818087B002DF985 = {
+			isa = PBXGroup;
+			children = (
+				780594581818087B002DF985 /* Pwitty */,
+				780594711818087B002DF985 /* PwittyTests */,
+				780594511818087B002DF985 /* Frameworks */,
+				780594501818087B002DF985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		780594501818087B002DF985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7805944F1818087B002DF985 /* Pwitty.app */,
+				7805946A1818087B002DF985 /* PwittyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		780594511818087B002DF985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				780594521818087B002DF985 /* Foundation.framework */,
+				780594541818087B002DF985 /* CoreGraphics.framework */,
+				780594561818087B002DF985 /* UIKit.framework */,
+				7805946B1818087B002DF985 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		780594581818087B002DF985 /* Pwitty */ = {
+			isa = PBXGroup;
+			children = (
+				780594611818087B002DF985 /* AppDelegate.h */,
+				780594621818087B002DF985 /* AppDelegate.m */,
+				780594641818087B002DF985 /* Images.xcassets */,
+				780594591818087B002DF985 /* Supporting Files */,
+				7805948118180999002DF985 /* MainWindow.xib */,
+			);
+			path = Pwitty;
+			sourceTree = "<group>";
+		};
+		780594591818087B002DF985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7805945A1818087B002DF985 /* Pwitty-Info.plist */,
+				7805945B1818087B002DF985 /* InfoPlist.strings */,
+				7805945E1818087B002DF985 /* main.m */,
+				780594601818087B002DF985 /* Pwitty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		780594711818087B002DF985 /* PwittyTests */ = {
+			isa = PBXGroup;
+			children = (
+				780594771818087B002DF985 /* PwittyTests.m */,
+				780594721818087B002DF985 /* Supporting Files */,
+			);
+			path = PwittyTests;
+			sourceTree = "<group>";
+		};
+		780594721818087B002DF985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780594731818087B002DF985 /* PwittyTests-Info.plist */,
+				780594741818087B002DF985 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7805944E1818087B002DF985 /* Pwitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7805947B1818087B002DF985 /* Build configuration list for PBXNativeTarget "Pwitty" */;
+			buildPhases = (
+				7805944B1818087B002DF985 /* Sources */,
+				7805944C1818087B002DF985 /* Frameworks */,
+				7805944D1818087B002DF985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pwitty;
+			productName = Pwitty;
+			productReference = 7805944F1818087B002DF985 /* Pwitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		780594691818087B002DF985 /* PwittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7805947E1818087B002DF985 /* Build configuration list for PBXNativeTarget "PwittyTests" */;
+			buildPhases = (
+				780594661818087B002DF985 /* Sources */,
+				780594671818087B002DF985 /* Frameworks */,
+				780594681818087B002DF985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780594701818087B002DF985 /* PBXTargetDependency */,
+			);
+			name = PwittyTests;
+			productName = PwittyTests;
+			productReference = 7805946A1818087B002DF985 /* PwittyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		780594471818087B002DF985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Nazwan;
+				TargetAttributes = {
+					780594691818087B002DF985 = {
+						TestTargetID = 7805944E1818087B002DF985;
+					};
+				};
+			};
+			buildConfigurationList = 7805944A1818087B002DF985 /* Build configuration list for PBXProject "Pwitty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 780594461818087B002DF985;
+			productRefGroup = 780594501818087B002DF985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7805944E1818087B002DF985 /* Pwitty */,
+				780594691818087B002DF985 /* PwittyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7805944D1818087B002DF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7805945D1818087B002DF985 /* InfoPlist.strings in Resources */,
+				780594651818087B002DF985 /* Images.xcassets in Resources */,
+				7805948218180999002DF985 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780594681818087B002DF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780594761818087B002DF985 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7805944B1818087B002DF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780594631818087B002DF985 /* AppDelegate.m in Sources */,
+				7805945F1818087B002DF985 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780594661818087B002DF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780594781818087B002DF985 /* PwittyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		780594701818087B002DF985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7805944E1818087B002DF985 /* Pwitty */;
+			targetProxy = 7805946F1818087B002DF985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7805945B1818087B002DF985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7805945C1818087B002DF985 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		780594741818087B002DF985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780594751818087B002DF985 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		780594791818087B002DF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7805947A1818087B002DF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7805947C1818087B002DF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pwitty/Pwitty-Prefix.pch";
+				INFOPLIST_FILE = "Pwitty/Pwitty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7805947D1818087B002DF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pwitty/Pwitty-Prefix.pch";
+				INFOPLIST_FILE = "Pwitty/Pwitty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7805947F1818087B002DF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pwitty.app/Pwitty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pwitty/Pwitty-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PwittyTests/PwittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		780594801818087B002DF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pwitty.app/Pwitty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pwitty/Pwitty-Prefix.pch";
+				INFOPLIST_FILE = "PwittyTests/PwittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7805944A1818087B002DF985 /* Build configuration list for PBXProject "Pwitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780594791818087B002DF985 /* Debug */,
+				7805947A1818087B002DF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7805947B1818087B002DF985 /* Build configuration list for PBXNativeTarget "Pwitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7805947C1818087B002DF985 /* Debug */,
+				7805947D1818087B002DF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7805947E1818087B002DF985 /* Build configuration list for PBXNativeTarget "PwittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7805947F1818087B002DF985 /* Debug */,
+				780594801818087B002DF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 780594471818087B002DF985 /* Project object */;
+}
